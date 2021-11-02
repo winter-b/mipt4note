@@ -35,6 +35,11 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View view) {
                 String note = textBox.getText().toString();
+                if(note.equals("")){
+                    Toast.makeText(getApplicationContext(), "Note cant be empty!",
+                            Toast.LENGTH_LONG).show();
+                    return;
+                }
                 Date c = Calendar.getInstance().getTime();
                 SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSSZ", Locale.getDefault());
                 String date = df.format(c);
