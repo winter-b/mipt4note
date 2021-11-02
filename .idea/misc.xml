@@ -3,9 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/solo/AndroidStudioProjects/mipt4note/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/solo/AndroidStudioProjects/mipt4note/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/solo/AndroidStudioProjects/mipt4note/app/src/main/res/layout/edit_box_layout.xml" value="0.27717391304347827" />
-        <entry key="..\:/Users/solo/AndroidStudioProjects/mipt4note/app/src/main/res/layout/note_layout.xml" value="0.27717391304347827" />
+        <entry key="..\:/Users/solo/AndroidStudioProjects/mipt4note/app/src/main/res/layout/note_layout.xml" value="0.22" />
       </map>
     </option>
   </component>

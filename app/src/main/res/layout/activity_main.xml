@@ -17,17 +17,28 @@
             android:layout_width="312dp"
             android:layout_height="149dp"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Name" />
+            android:inputType="textMultiLine"
+            android:text=""/>
 
         <Button
             android:id="@+id/button"
             android:layout_width="wrap_content"
-            android:layout_height="146dp"
+            android:layout_height="97dp"
             android:layout_alignParentTop="true"
             android:layout_alignParentRight="true"
+            android:layout_marginTop="45dp"
             android:layout_marginRight="0dp"
-            android:text="Button" />
+            android:text="@string/Save" />
+
+        <Button
+            android:id="@+id/buttonRefresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="1dp"
+            android:layout_marginRight="0dp"
+            android:text="@string/Refresh" />
     </RelativeLayout>
     <ListView
         android:id="@+id/listView"
